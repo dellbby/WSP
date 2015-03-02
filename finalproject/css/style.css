@@ -109,6 +109,9 @@ h1 {
 }
 
 h2{
+	margin-top : 0px;
+	margin-left : 10px;
+	margin-bottom : 0;
 	background : #ffffff;
 	text-decoration : none;
 	font-family : arial;
@@ -116,14 +119,14 @@ h2{
 	letter-spacing : -1px;
 	text-transform : none;
 	line-height : 15px;
-	font-size : 18px;
+	font-size : 22px;
+	text-transform : uppercase;
 	font-weight : normal;
 	text-align : left;
 	padding-left : 3px;
 	padding-bottom : 1px;
 	padding-top : 3px;
-	margin-top : 0;
-	margin-bottom : 2px;
+	
 	border-bottom : 0 dashed #f23976;
 	
 }
@@ -320,7 +323,7 @@ input.form {
 #navigation {
 	list-style : none;
 	margin : 0;
-	padding-left : 1px;
+	padding-left : 250px;
 }
 
 #navigation li {
@@ -371,7 +374,7 @@ a.nav, a.nav:active, a.nav:link, a.nav:visited {
 	line-height : 12px;
 	background-color : #b7dfd9;
 	background : url("");
-	padding-left : 6px;
+	padding-left : 16px;
 	display : block;
 	padding-right : 6px;
 	padding-top : 1px;
@@ -424,45 +427,7 @@ td {
 	clear : both;
 }
 
-.tooltip{
-	display:none;
-	position:absolute;
-	border:1px solid #000;
-	background-color:#CCC;
-	border-radius:4px;
-	padding:5px;
-	color:#000;
-	font-size:11px arial;
-}
 
-
-a.tooltips {
-  position: relative;
-  display: inline;
-}
-a.tooltips span {
-  position: absolute;
-  width:140px;
-  color: #000;
-  background: #000000;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  visibility: hidden;
-  border-radius: 6px;
-}
-
-a.tooltips span:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0; height: 0;
-  border-top: 8px solid #000000;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent;
-}
 
 a:hover.tooltips span {
   visibility: visible;
@@ -471,18 +436,6 @@ a:hover.tooltips span {
   left: 50%;
   margin-left: -76px;
   z-index: 999;
-}
-
-
-#overlay {
-	width:100%;
-	height:100%;
-	background: rgba(0,0,.5);
-	position:absolute;
-	top:0;
-	left:0;
-	z-index:1000;
-	display: none;
 }
 
 
